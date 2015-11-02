@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyPortfolio">  
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title %></title>
+
+    <link rel="stylesheet" href="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="/javascripts/app.js"></script>
+    <script src="/javascripts/headerController.js"></script>
+    <script src="/javascripts/projectView.js"></script>
+
+  </head>
+  <body>
+<!--   	  <div class="container" ng-controller="pageController as pageCtrl">
+ -->        <header class="navbar" ng-controller="headerController as 	headerCtrl">
+          <h1 class="pull-left">{{headerCtrl.title}}</h1>
+        </header>
+
+        <nav class="tabs">
+          <a ui-sref-active="active" ui-sref="about">About Me</a>
+          <a ui-sref-active="active" ui-sref="projects">Projects</a>
+          <a ui-sref-active="active" ui-sref="contact">Contact Me</a>
+          <a ui-sref-active="active" ui-sref="photos">Photography</a>
+
+        </nav>
+
+        <div ui-view></div>
+
+      <footer>
+        <p>Icons</p>
+      </footer>
+<!--       </div>
+ -->  </body>
+</html>
