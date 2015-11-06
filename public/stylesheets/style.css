@@ -1,8 +1,50 @@
 body {
-  padding: 50px;
+  padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+img {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+}
+
+/*p {
+	margin: 10px;
+	border: 5px;
+	padding: 10px;
+
+
+}*/
+
+.aboutme {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+}
+
+
+.text-muted {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+
+}
+
+.footericon {
+	margin: 5px;
+	border: 5px;
+	padding: 5px;
+}
+
+.container{
+	list-style: none;
+}
+
+.contact{
+	text-align: center;
 }

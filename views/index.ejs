@@ -10,10 +10,13 @@
     <link rel='stylesheet' href='/stylesheets/normalize.css' />
 
     <!--  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'/> -->
-    <script src= "https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src= "//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    
+   <!--   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="/javascripts/app.js"></script>
@@ -28,7 +31,7 @@
    
 
   <header class="navbar" ng-controller="headerController as 	headerCtrl">
-     <h1>{{headerCtrl.title}}</h1>
+     <h1 text-align = "center">{{headerCtrl.title}}</h1>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,12 +58,19 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
     </nav>
+    <div ui-view></div>
   </header>
+ 
+    <footer>
+      
+          <a href="https://github.com/nrmartell"> <img class ="giticon" src= "/images/Github-Mark-32px.png" alt="Responsive image"/>
+         
+         <a href="https://linkedin.com/in/nrmartell"><img class= "linkicon" src= "/images/In-2C-34px-R.png" alt="Responsive image"/>
+        <p class="text-muted">Copyright Natalie Martell 2015</p>
+        
 
-  <div ui-view></div>
-      <footer>
-        <p>Icons</p>
-      </footer>
-<!--       </div>
- -->  </body>
+       </p>
+     
+    </footer>
+  </body>
 </html>
