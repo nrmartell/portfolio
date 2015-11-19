@@ -221,8 +221,8 @@ position: relative;
 }
 
 .contactcontainer{
-border-color: gray;
-border: 2px solid gray;
+/*border-color: gray;
+border: 2px solid gray;*/
 background-color: #ffffff;
 float: right;
 vertical-align: middle;
