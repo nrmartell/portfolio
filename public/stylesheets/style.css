@@ -11,6 +11,12 @@ html, body {
   background-color: #727072;
 }
 
+h1{
+  color:white;
+}
+
+
+
 .navbar-default {
   background-color: #000000;
   border-color: #ebe8ec;
