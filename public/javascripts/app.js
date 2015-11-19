@@ -10,7 +10,7 @@
 	      templateUrl: '_photoView.html',
 	    })
 	    .state('about', {
-	      url: '/about',
+	      url: '/',
 	      templateUrl: '_aboutView.html',
 	    }).state('projects', {
 	      url: '/projects',
