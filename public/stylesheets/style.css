@@ -120,11 +120,14 @@ position: relative;}
   width: 96%;
   max-width: 960px;
   margin: 0 auto; }
+
 img.projectcontainer {
-  width: 48%;
+  width: 75%;
   display: inline-block;}
 
 img.projecticon{
+   height: 350px;
+    width: 350px;
     margin: 0 auto;
     border:10px;
     cursor: pointer;
@@ -132,12 +135,12 @@ img.projecticon{
     display: inline-block;
     padding: 10px;}
 
-.projecticon{
+/*.projecticon{
  height: 350px;
-max-width: 300px;
+ width: 350px;
  padding: 1em;
-  margin: 0 auto;
-/* float: left;*/}
+  margin: 0 auto;*/
+/* float: left;*/
 
 /*CONTACT PAGE*/
 .contactcontainer{
