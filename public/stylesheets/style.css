@@ -1,23 +1,13 @@
-html{
-box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-
 html, body {
   height: 100%;
   background-color: #727072;
-  font-family: 'Arvo', serif;
-}
+  font-family: 'Arvo', serif;}
 
 h1{
-  color:white;
-}
+  color:white;}
 
 
-
+/***NAVBAR***/
 .navbar-default {
   background-color: #000000;
   border-color: #ebe8ec;
@@ -77,161 +67,37 @@ h1{
     background-color: #ebe8ec;
   }
 }
+/***NAVBAR END***/
 
-
-
-body {
-/*  background-color: #06D6A0;
-*/}
-
-
-header, footer {
-/*  background-color: #EF476F;
-*/  padding: 20px;
-  width: 100%;
-}
+/****About Me Page****/
 
 #picturebox{
-margin: 0 auto;
-
-
-}
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      max-width: 100%;
-      margin: auto;
-  }
-
-.projectcontainer {
-  width: 96%;
-  max-width: 960px;
-  margin: 0 auto; /* to center the container */
-}
-img.projectcontainer {
-  width: 48%;
-  display: inline-block;
-}
-
-#me {
-   margin: 0 auto;
-   vertical-align: center;
-   padding: 25px;
-}
-
-.aboutcontainer{
-  margin: 0 auto;
-  vertical-align: center; 
-  padding: 1em;
-}
-
-.aboutme{
-margin: 0 auto;
-padding 1em;
-border: 5px;
-
-}
-
-#contactpic {
-/*  margin: 0 auto;*/
-margin-top: 50px;
-/*  max-width: 100%;
-  max-height: 100%;*/
-  padding:15px;
-}
-
-.contactcontainer {
-  padding:10px;
-  width: 96%;
-  vertical-align: middle;
-/*  margin: 0 auto;  to center the container 
-*/}
-
-img.projecticon{
-    margin: 0 auto;
-    border:10px;
-    cursor: pointer;
-    cursor: hand;
-    display: inline-block;
-    padding: 10px;
-}
-
-
-li {
-	list-style: none;
-}
+margin: 0 auto;}
 
 p {
   margin: 5px 0px;
   line-height: 1.25em;
   padding: 5px;
-  font-size: 1.5em;
-}
+  font-size: 1.5em;}
 
-#wrapper {
-  margin: 0px auto;
-  position: relative;
-  min-height: 100%;
-}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      max-width: 100%;
+      margin: auto;}
+#me {
+   margin: 0 auto;
+   vertical-align: center;
+   padding: 25px;}
 
-section {
-  background-color: #FFF;
-  margin: 0px 10px 0px 10px;
-  padding: 0px 10px;
-}
-.icon {
- display: block;
- margin: 0 auto;
- max-height: 250px;
- max-width: 250px;
- padding:1em;
-
-
-}
-
-.projecticon{
-
-/* height: 350px;
-max-width: 300px;
- padding: 1em;
+.aboutcontainer{
   margin: 0 auto;
- float: left;*/
+  vertical-align: center; 
+  padding: 1em;}
 
-}
-
-#contactbox2{
-/*border-color: gray;
-border: 2px solid gray;*/
-background-color: #ffffff;
-margin:  auto;
-padding: 2em;
-}
-
-#contactbox3{
-/*border-color: gray;
-border: 2px solid gray;*/
-background-color: #ffffff;
-margin:  auto;
-}
-
-#contactbox1{
-
-/*border-color: gray;
-border: 2px solid gray;*/
-background-color: #ffffff;
-margin:  auto;
-padding: 5em;
-}
-
-img.contactbox1{
-  margin:0 auto;
-  display: inline-block;
-}
-
-#photo {
-    max-height: 220px;
-    max-width: 220px;
-}
+.aboutme{
+margin: 0 auto;
+padding 1em;
+border: 5px;}
 
 .container{
 border-color: gray;
@@ -242,115 +108,161 @@ vertical-align: middle;
 margin: 0 auto;
 padding: 0px;
 width: 100%;
-position: relative;
+position: relative;}
 
-}
+/****End About PAGE****/
 
+/****Project Page*****/
+
+.projectcontainer {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; }
+img.projectcontainer {
+  width: 48%;
+  display: inline-block;}
+
+img.projecticon{
+    margin: 0 auto;
+    border:10px;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    padding: 10px;}
+
+.projecticon{
+ height: 350px;
+max-width: 300px;
+ padding: 1em;
+  margin: 0 auto;
+/* float: left;*/}
+
+/*CONTACT PAGE*/
 .contactcontainer{
-/*border-color: gray;
-border: 2px solid gray;*/
 background-color: #ffffff;
 float: right;
 vertical-align: middle;
 margin: 0px;
 padding: 0px;
-width: 100%;
+width: 100%;}
 
-}
+#contactbox2{
+background-color: #ffffff;
+margin:  auto;
+padding: 2em;}
 
+#contactbox3{
+background-color: #ffffff;
+margin:  auto;}
+
+.icon {
+ display: block;
+ margin: 0 auto;
+ max-height: 250px;
+ max-width: 250px;
+ padding:1em;}
+
+#contactbox1{
+background-color: #ffffff;
+margin:  auto;
+padding: 5em;}
+
+li {
+  list-style: none;}
+
+#contactpic {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  padding:15px;}
 
 h2{
 text-align: center;
 font-size: 2.5em;
 margin: 10px;
-padding: 5px;
+padding: 5px;}
+/** CONTACT PAGE END**/
 
-}
 
-.hobbies {
+/***HOBBY PAGE ****/
+
+p.hobbies {
   font-size:.35em;
   margin:0 auto;
-}
+  text-align: center;
+  vertical-align: middle;}
 
+.photo {
+    max-height: 220px;
+    max-width: 220px;}
 
+#wrapper {
+  margin: 0px auto;
+  position: relative;
+  min-height: 100%;}
 
 .flip {
 -webkit-perspective: 800;
 width: 400px;
 height: 200px;
 position: relative;
-margin: 50px auto;
-}
+margin: 50px auto;}
 
 .myface{
-/*vertical-align: middle;
-*/display: inline-block;
- height: 300px;
+ display: inline-block;
+ max-height: 300px;
  width: auto;
-}
-
+ margin:0 auto;}
 
 .flip .photo.flipped {
--webkit-transform: rotatex(-180deg);
-}
+-webkit-transform: rotatex(-180deg);}
+
 .flip .photo {
 width: 100%;
 height: 100%;
-/*vertical-align: middle;
-*/display: inline-block;
+display: inline-block;
 -webkit-transform-style: preserve-3d;
--webkit-transition: 0.5s;
-}
+-webkit-transition: 0.5s;}
+
 .flip .photo .face {
  width: 100%;
  height: 100%;
  position: absolute;
-/* vertical-align: middle;
-*/display: inline-block;
+ display: inline-block;
  -webkit-backface-visibility: hidden ;
  z-index: 2;
  font-family: Georgia;
  font-size: 3em;
  text-align: center;
- line-height: 200px;
-}
+ line-height: 200px;}
+
 .flip .photo .front {
  position: absolute;
-/* vertical-align: middle;
-*/ display: inline-block;
-
+ display: inline-block;
  z-index: 1;
  color: white;
- cursor: pointer;
-}
+ cursor: pointer;}
+
 .flip .photo .back {
  -webkit-transform: rotatex(-180deg);
-/* vertical-align: middle;
-*/display: inline-block;
+  display: inline-block;
   background: blue;
   background: white;
   color: black;
   cursor: pointer;
-  background-color: transparent;
-
-}
+  background-color: transparent;}
 
 .face .back{
-/*  vertical-align: middle;
-*/
 width: 100%;
 height: 100%;
-background-color: transparent;
-
-}
+background-color: transparent;}
 
 .backphoto{
-/*vertical-align: middle;
-*/
-  max-height: 100%;
-}
+vertical-align: middle;
+max-height: 100%;
+margin: 0 auto;}
 
 @media only screen and (min-width: 768px) {
   float: left;
-  background-color: white;
-}
+  background-color: lightblue;}
