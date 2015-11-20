@@ -223,6 +223,11 @@ margin:  auto;
 padding: 5em;
 }
 
+img.contactbox1{
+  margin:0 auto;
+  display: inline-block;
+}
+
 #photo {
     max-height: 220px;
     max-width: 220px;
@@ -263,7 +268,8 @@ padding: 5px;
 }
 
 .hobbies {
-  font-size:20px;
+  font-size:.35em;
+  margin:0 auto;
 }
 
 
@@ -277,8 +283,8 @@ margin: 50px auto;
 }
 
 .myface{
-vertical-align: middle;
-
+/*vertical-align: middle;
+*/display: inline-block;
  height: 300px;
  width: auto;
 }
@@ -290,8 +296,8 @@ vertical-align: middle;
 .flip .photo {
 width: 100%;
 height: 100%;
-vertical-align: middle;
-
+/*vertical-align: middle;
+*/display: inline-block;
 -webkit-transform-style: preserve-3d;
 -webkit-transition: 0.5s;
 }
@@ -299,8 +305,8 @@ vertical-align: middle;
  width: 100%;
  height: 100%;
  position: absolute;
- vertical-align: middle;
-
+/* vertical-align: middle;
+*/display: inline-block;
  -webkit-backface-visibility: hidden ;
  z-index: 2;
  font-family: Georgia;
@@ -310,7 +316,8 @@ vertical-align: middle;
 }
 .flip .photo .front {
  position: absolute;
- vertical-align: middle;
+/* vertical-align: middle;
+*/ display: inline-block;
 
  z-index: 1;
  color: white;
@@ -318,8 +325,8 @@ vertical-align: middle;
 }
 .flip .photo .back {
  -webkit-transform: rotatex(-180deg);
- vertical-align: middle;
-
+/* vertical-align: middle;
+*/display: inline-block;
   background: blue;
   background: white;
   color: black;
@@ -329,8 +336,8 @@ vertical-align: middle;
 }
 
 .face .back{
-  vertical-align: middle;
-
+/*  vertical-align: middle;
+*/
 width: 100%;
 height: 100%;
 background-color: transparent;
@@ -338,8 +345,8 @@ background-color: transparent;
 }
 
 .backphoto{
-vertical-align: middle;
-
+/*vertical-align: middle;
+*/
   max-height: 100%;
 }
 
