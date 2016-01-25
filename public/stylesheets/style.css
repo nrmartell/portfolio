@@ -116,7 +116,7 @@ position: relative;}
 
 /****Project Page*****/
 
-.projectcontainer {
+#projectcontainer {
   width: 96%;
   max-width: 960px;
   margin: 0 auto; }
@@ -125,15 +125,24 @@ img.projectcontainer {
   width: 75%;
   display: inline-block;}
 
-img.projecticon{
-   height: 350px;
-    width: 350px;
+img.featurette-image{
+   height: 400px;
+    width: 700px;
     margin: 0 auto;
     border:10px;
     cursor: pointer;
     cursor: hand;
     display: inline-block;
     padding: 10px;}
+
+    .text-muted{
+      color: white;
+    }
+
+    a {
+      color:white;
+      font-size: 1em;
+    }
 
 /*.projecticon{
  height: 350px;

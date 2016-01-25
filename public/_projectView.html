@@ -1,117 +1,75 @@
-<!-- <div class = "projectview"> -->
-<div class="projectcontainer">
+<hr class="featurette-divider">
 
-  <div class= "col-sm-6" id = "project1">
-        <div class= 'row'></div>
-          <a data-toggle ="modal" data-target = "#tictactoe"> <img class= "projecticon" src="/images/javascript.png" ></a>
-<!--   </div> -->
-      
-  <!-- <div class= "col-md-3" id = "project2"> -->
-        <div class= 'row'></div>
-       <a data-toggle ="modal" data-target = "#recordkeeper"> <img class= "projecticon" src="/images/ROR-Logo-512.png" ></a>
-
-          <div class= 'row'></div>
-       <a data-toggle ="modal" data-target = "#stereo"> <img class= "projecticon" src="/images/ROR-Logo-512.png" ></a>
-  </div>
-      
-  <div class= "col-sm-6" id = "project3">
-        <div class= 'row'></div>
-      <a data-toggle ="modal" data-target = "#guestadvisor"> <img class = "projecticon" src="/images/nodejs-green.png" ></a>
-<!--   </div> -->
-      
-<!--   <div class= "col-md-3" id = "project4">
- -->        <div class= 'row'></div>
-     <a data-toggle ="modal" data-target = "#ticketbox"> <img class= "projecticon" src="/images/meteorlogoblack.png" ></a>
-  </div>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RecordKeeper. <span class="text-muted"> Social Network for Record Collectors.</span></h2>
+            <p>The purpose of the application is to allow users to keep track of their growing record collections. Users can also see what albums have been uploaded and check out other users music collections. It was a collaborative project built on Ruby on Rails Framework and library. We utilized Postgresql for our database.Sorcery gem for user authentication and sessions</p>
+            <p> My contribution was getting album forms to post to the database and and creating user profile pages showing all of their uploaded content. I made sure users only had access to their content and could not delete/edit other user's data. I also confirmed all routes functioned properly and routed to correct locations.  </p>
+          <a href="http://powerful-taiga-9352.herokuapp.com/" class="button">Check it Out! || </a>
+          <a href="http://github.com/jonfurr/recordkeeper" class="button"> Github</a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="/images/recordkeeper.png"class="img-responsive">
+        </div>
+      </div>
 
 
-</div>
+      <hr class="featurette-divider">
 
-<div id="tictactoe" class= "modal fade" >
-  <div class="modal-dialog">
-    <div class = "modal-content">
-      <div class = "modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-          </button>
-              <h5>Tic Tac Toe</h5>
-      </div> 
-        <div class = "modal-body"> 
-            <p>My first project, a tic toe game built solely in javascript with a little HTML and CSS.</p>
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">10 Mile Stereo. <span class="text-muted"> A Music Lovers Haven.</span></h2>
+          <p>The purpose of the application is to allow users to connect with fellow music lovers. User's can post news, pictures, album reviews and follow other users that post interesting things. This site is built on Ruby on Rails with Bootstrap, and little bit of javascript.</p>
+          <p>The site has email authentication and utilizes Heroku sendgrid addon to send activation email to users.Postgresql was used for the database. Site was deployed to Heroku with custom domain. </p>
+          <a href="http://www.10milestereo.com" class="button">Check it Out! || </a>
+          <a href="http://www.github.com/nrmartell/10milestereo" class="button"> Github</a>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="/images/10milestereo.png"class="img-responsive">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Ticketbox. <span class="text-muted"> A virtual box for your concert Tickets.</span></h2>
+             <p>The purpose of this application is to be a concert ticket scrapbook. As someone who loves going to shows and holding on to tickets, I wanted some way to keep them all safe.</p>
+             <p> I built this application using MeteorJs framework. I picked Meteor because I want to learn about different frameworks and how they vary in structure and their best uses. I wanted this be to a mobile application and when compiled into xcode, it allows access to user's camera and photo library to snap a picture of their tickets. </p>
+          <a href="https://ticketbox.meteor.com" class="button">Check it Out! || </a>
+          <a href="http://github.com/nrmartell/ticketbox" class="button"> Github</a>
+        </div>
+        <div class="col-md-5">
+         <img class="featurette-image img-responsive center-block" src="/images/ticketbox.png"class="img-responsive">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">GuestAdvisor. <span class="text-muted">The Tables have turned on Guests.</span></h2>
+             <p>This application had a different take on services like tripadvisor. It allows hotel personnel to create accounts and share reviews about guests. It was a collaborative application built using Node.Js, Express and MongoDB. Passport was used to control user sessions. </p>
+             <p>My contribution entailed creating Ajax calls to guest collection in our API for autocomplete search functionality. I set up database schema using Mongolab and ensured everyone had access to data. I was in charge of deploying application to Heroku and troubleshooted and resolved issues that arose during deployment.</p>
+          <a href="https://aqueous-shelf-6554.herokuapp.com" class="button">Check it Out! || </a>
+          <a href="https://github.com/sdhaughey/guestadvisor" class="button"> Github</a>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="/images/guestadvisor.png"class="img-responsive">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Tic Tac Toe. <span class="text-muted">A Simple Game.</span></h2>
+         <p>My first project, a tic toe game built solely in javascript with a little HTML and CSS.</p>
             <a href="http://designer-utilization-21025.bitballoon.com" class="button">Check it Out!</a>
         </div>
-    </div>       
-  </div>
-</div>
-
-<div id="recordkeeper" class= "modal fade" >
-  <div class="modal-dialog">
-    <div class = "modal-content">
-      <div class = "modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-          </button>
-            <h5>Record Keeper</h5>
-      </div> 
-        <div class = "modal-body">
-          <p>The purpose of the application is to allow users to keep track of their growing record collections. Users can also see what albums have been uploaded and check out other users music collections. It was a collaborative project built on Ruby on Rails Framework and library.</p>
-          <p>We utilized Postgresql for database mangagement and Sorcery gem for user authentication and sessions. My contribution was getting album forms to post to the database and ensuring users only had access to their uploaded content. I also as confirmed all routes functioned properly and routed to correct locations.  </p>
-          <a href="http://powerful-taiga-9352.herokuapp.com/" class="button">Check it Out!</a>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="/images/tictactoe.png"class="img-responsive">
         </div>
-    </div>
-  </div>
-</div>
+      </div>
 
-<div id="stereo" class= "modal fade" >
-  <div class="modal-dialog">
-    <div class = "modal-content">
-      <div class = "modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-          </button>
-            <h5>10 Mile Stereo</h5>
-      </div> 
-        <div class = "modal-body">
-          <p>The purpose of the application is to allow users to connect with fellow music lovers. User's can post news, pictures, album reviews and follow other users that post interesting things. This site is built on Ruby on Rails with Bootstrap, and little bit of javascript.</p>
-          <p>The site has email authentication and utilizes Heroku sendgrid addon to send activation email to users. I used bycrypt for security and faker gem to seed database. Postgresql was used for database management. Site was deployed to Heroku with custom domain. </p>
-          <a href="http://www.10milestereo.com" class="button">Check it Out!</a>
-        </div>
-    </div>
-  </div>
-</div>
-
-<div id="guestadvisor" class= "modal fade" >
-  <div class="modal-dialog">
-    <div class = "modal-content">
-      <div class = "modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label ="Close"> <span aria-hidden="true">&times;</span>
-        </button>
-          <h5>Guest Advisor</h5>
-      </div> 
-        <div class = "modal-body"> 
-          <p>This application had a different take on services like tripadvisor. It allows hotel personnel to create accounts and share reviews about guests. It was a collaborative application built using Node.Js, Express and MongoDB. Passport was used to control user sessions. My contribution entailed creating Ajax calls to guest collection in our API for autocomplete search functionality and setting up database schema. I also was in charge of deploying application to Heroku and troubleshooted and resolved issues that arose during deployment.  </p>
-          <a href="https://aqueous-shelf-6554.herokuapp.com" class="button">Check it Out!</a>
-        </div>
-    </div>
-  </div>
-</div>
-
-<div id="ticketbox" class= "modal fade" >
-  <div class="modal-dialog">
-    <div class = "modal-content">
-      <div class = "modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-          </button>
-              <h5>Ticketbox</h5>
-      </div> 
-        <div class = "modal-body"> 
-          <p>The purpose of this application is to be a concert ticket scrapbook. As someone who loves going to shows and holding on to tickets, I wanted some way to keep them all safe. I built this application from scratch using MeteorJs. I used MeteorJs because I want to learn about different frameworks and how they vary in structure and their best uses. The goal was for it be to a mobile application and when compiled into xcode allows access to user's camera and photo library to snap a picture of their tickets. </p>
-          <a href="https://ticketbox.meteor.com" class="button">Check it Out!</a>
-        </div>
-    </div>       
-  </div>
-</div>
-
-
-
-
-
-
-  
