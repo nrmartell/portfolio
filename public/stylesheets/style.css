@@ -1,122 +1,88 @@
-html, body {
+/*html, body {
   height: 100%;
   background-color: #727072;
-  font-family: 'Arvo', serif;}
+  font-family: 'Arvo', serif;}*/
 
-h1{
-  text-align: center;
-  vertical-align: middle;
-  color:white;}
 
+body { padding-top: 70px; 
+font-family: 'Arvo', serif;
+}
+
+footer{
+  padding-top: 25px;
+}
 
 /***NAVBAR***/
-.navbar-default {
-  background-color: #000000;
-  border-color: #ebe8ec;
-}
-.navbar-default .navbar-brand {
-  color: #9fa4a5;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #e8e8e8;
-}
-.navbar-default .navbar-text {
-  color: #9fa4a5;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #9fa4a5;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #e8e8e8;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #e8e8e8;
-  background-color: #ebe8ec;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #e8e8e8;
-  background-color: #ebe8ec;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ebe8ec;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ebe8ec;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #9fa4a5;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #9fa4a5;
-}
-.navbar-default .navbar-link {
-  color: #9fa4a5;
-}
-.navbar-default .navbar-link:hover {
-  color: #e8e8e8;
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #9fa4a5;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #e8e8e8;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #e8e8e8;
-    background-color: #ebe8ec;
-  }
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
 }
+
+
+
 /***NAVBAR END***/
 
-/****About Me Page****/
 
-#picturebox{
-margin: 0 auto;}
+
+ 
+
+
+/****Home view Page****/
+
 
 p {
   margin: 5px 0px;
   line-height: 1.25em;
   padding: 5px;
   font-size: 1.5em;}
+#me{
+    max-height: 350px;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      max-width: 100%;
-      margin: auto;}
-#me {
-   margin: 0 auto;
-   vertical-align: center;
-   padding: 25px;}
+}
 
-.aboutcontainer{
-  margin: 0 auto;
-  vertical-align: center; 
-  padding: 1em;}
+.sec-1 { 
+    background-color: #66ccff;
+    color: #ffffff;
+}
 
-.aboutme{
-margin: 0 auto;
-padding 1em;
-border: 5px;}
+.sec-2 { 
+    background-color: #474e5d; 
+    color: #ffffff;
+}
+.sec-3 { 
+    background-color: #ffffff; 
+    color: #555555;
+}
 
-.container{
-border-color: gray;
-border: 2px solid gray;
-background-color: #ffffff;
-float: left;
-vertical-align: middle;
-margin: 0 auto;
-padding: 0px;
-width: 100%;
-position: relative;}
+.sec-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
 
-/****End About PAGE****/
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 /****Project Page*****/
 
+
 #projectcontainer {
+  background-color: #727072;
   width: 96%;
   max-width: 960px;
   margin: 0 auto; }
@@ -136,20 +102,13 @@ img.featurette-image{
     padding: 10px;}
 
     .text-muted{
-      color: white;
+      color: gray;
     }
 
     a.button {
       color:white;
       font-size: 1em;
     }
-
-/*.projecticon{
- height: 350px;
- width: 350px;
- padding: 1em;
-  margin: 0 auto;*/
-/* float: left;*/
 
 /*CONTACT PAGE*/
 .contactcontainer{
@@ -276,7 +235,7 @@ background-color: transparent;}
 vertical-align: middle;
 max-height: 100%;
 margin: 0 auto;}
-
+.margin {margin-bottom: 45px;}
 @media only screen and (min-width: 768px) {
   float: left;
   background-color: lightblue;}

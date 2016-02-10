@@ -9,9 +9,10 @@
 	      url: '/photos',
 	      templateUrl: '_photoView.html',
 	    })
-	    .state('about', {
+
+	     .state('home', {
 	      url: '/',
-	      templateUrl: '_aboutView.html',
+	      templateUrl: '_homeView.html',
 	    }).state('projects', {
 	      url: '/projects',
 	      templateUrl: '_projectView.html',
