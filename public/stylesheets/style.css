@@ -23,23 +23,12 @@ footer{
     font-size: 12px;
     letter-spacing: 5px;
 }
-
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
-
-
-
 /***NAVBAR END***/
 
-
-
- 
-
-
 /****Home view Page****/
-
-
 p {
   margin: 5px 0px;
   line-height: 1.25em;
@@ -79,17 +68,6 @@ p {
 }
 
 /****Project Page*****/
-
-
-#projectcontainer {
-  background-color: #727072;
-  width: 96%;
-  max-width: 960px;
-  margin: 0 auto; }
-
-img.projectcontainer {
-  width: 75%;
-  display: inline-block;}
 
 img.featurette-image{
    height: 400px;
